@@ -1,0 +1,28 @@
+{
+  "name": "contract-template-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "init": "hardhat",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartick/contract-template-ts.git"
+  },
+  "author": "bartick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartick/contract-template-ts/issues"
+  },
+  "homepage": "https://github.com/bartick/contract-template-ts#readme",
+  "dependencies": {
+    "hardhat": "^2.12.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0"
+  }
+}
